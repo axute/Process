@@ -1,0 +1,27 @@
+{
+    "name": "axute/process",
+    "description": "a class to use any command as object via stdIn, stdOut and stdErr with proc_open",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "axute",
+            "email": "axutes@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Axute\\Process\\": "src"
+        }
+    },
+    "keywords": [
+        "process",
+        "handler",
+        "proc_open",
+        "stream"
+    ],
+    "require": {
+        "php":">=7.2"
+    }
+}
